@@ -1,0 +1,72 @@
+Library/
+Library/*
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+Packages
+ArtifactDB
+ArtifactDB-lock
+AnnotationManager
+
+.DS_Store
+Thumbs.db
+# Archivos de caché generados por Unity
+sysinfo.txt
+MemoryCaptures/
+
+# VSCode
+.vscode/
+
+# Visual Studio
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Rider
+.idea/
+*.sln.iml
+
+# Archivos de construcción de Android
+.gradle/
+.gradle/
+# Archivos de configuración de perfiles de usuario
+UserSettings/
+
+# Archivos de configuración de Vuforia
+Assets/Editor/Vuforia/
+
+# Archivos específicos de UI Toolkit
+*.stylecatalog
+*.uss
+
+# Archivos de Yarn Spinner
+.yarn/
+
+# Unity3D-generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Persistent meta files
+*.mp4.meta
+
+# Analítica de Unity
+*.analytics
+
+# Otros
+*.api
+.idea/
+*.iml

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="QR_Totem_01" size="3.000000 3.936152" />
+    <ImageTarget name="QRTotem_02" size="3.000000 3.936589" />
+    <ImageTarget name="OIP" size="3.000000 1.683544" />
+  </Tracking>
+</QCARConfig>

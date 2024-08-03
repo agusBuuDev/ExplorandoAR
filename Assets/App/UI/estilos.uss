@@ -1,0 +1,100 @@
+VisualElement {
+}
+
+.foto_scroll {
+    margin-top: 30%;
+}
+
+.titulos {
+    font-size: 600%;
+    flex-wrap: wrap;
+    text-overflow: clip;
+    color: rgb(68, 64, 60);
+    -unity-font: url('project://database/Assets/App/UI/Recursos%20UI/Fonts/BarlowCondensed-Medium.ttf?fileID=12800000&guid=ea457e14852094c4baa5241967283233&type=3#BarlowCondensed-Medium');
+    -unity-font-definition: initial;
+    text-shadow: 0 0 0 rgba(18, 0, 0, 0);
+    -unity-text-align: upper-center;
+}
+
+.foto_scroll:focus {
+    margin-top: 35%;
+}
+
+.btn_est {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    rotate: 0;
+}
+
+.btn_est:hover {
+    rotate: 5deg;
+    scale: 0.89 0.89;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out-back;
+}
+
+.opcion-button {
+    width: 90%;
+    align-self: center;
+    background-color: rgba(115, 85, 2, 0.75);
+    color: rgb(255, 249, 249);
+    -unity-font: url('project://database/Assets/App/UI/Recursos%20UI/Fonts/BarlowCondensed-Regular.ttf?fileID=12800000&guid=bf045cebabfe0d941930d4ac30f1d0d6&type=3#BarlowCondensed-Regular');
+    -unity-font-definition: initial;
+    font-size: 18px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5%;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+    white-space: normal;
+    text-overflow: clip;
+    -unity-text-align: middle-center;
+    margin: 2%;
+    background-image: none;
+    -unity-background-scale-mode: stretch-to-fill;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-bottom-width: 3px;
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.screen_est_btn {
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.screen_est_btn:hover {
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    scale: 1.05 1.05;
+    width: 100%;
+    height: 20px;
+}
+
+.main {
+}
+
+.main:hover {
+    scale: 0.95 0.95;
+}
+
+.redes:hover {
+    rotate: 15grad;
+    scale: 0.95 0.95;
+}
+
+.opcion-buton:hover {
+    scale: 0.95 0.95;
+}
+

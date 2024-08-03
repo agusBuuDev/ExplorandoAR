@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/App/UI/estilos.uss?fileID=7433441132597879392&amp;guid=c3c2a66cc6b655347838349dfb34775d&amp;type=3#estilos" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/App/UI/Recursos%20UI/nueva%20UI/App%20formato%20celular%2004.png?fileID=21300000&amp;guid=fce86b288a3c1d34881fd030654a607a&amp;type=3#App formato celular 04&apos;);">
+        <ui:VisualElement name="SobreABP" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 80%; justify-content: flex-end;">
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" name="texto" style="height: 75%; justify-content: space-between; padding-left: 10%; padding-right: 10%; flex-wrap: wrap;">
+                <ui:Label tabindex="-1" text="La Asociación Paleontológica Bariloche  es una entidad sin ánimo de lucro que tiene como misión la preservación  y difusión del patrimonio paleontológico local y regional, con fines educativos y científicos.&#10;También es la encargada de la creación y mantenimiento del Museo Paleontológico Bariloche el cual tiene como finalidad  la exhibición  y resguardo  adecuado de importantes colecciones paleontológicas. &#10;" display-tooltip-when-elided="true" name="texto" style="top: 0; white-space: normal; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/App/UI/Recursos%20UI/Fonts/BarlowCondensed-Bold.ttf?fileID=12800000&amp;guid=3119623c29e5b964d80d15087e6e5bd7&amp;type=3#BarlowCondensed-Bold&apos;);" />
+                <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 163px; background-image: url(&apos;project://database/Assets/App/UI/Recursos%20UI/Textures/Logo%20ABP.png?fileID=21300000&amp;guid=98e5c200aba86414a8b3b38f32faf780&amp;type=3#Logo ABP&apos;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 20%; flex-direction: row;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 50%;">
+                <ui:Button display-tooltip-when-elided="true" name="volver" class="redes" style="width: auto; background-color: rgba(188, 188, 188, 0); background-image: url(&apos;project://database/Assets/App/UI/Recursos%20UI/nueva%20UI/05.png?fileID=21300000&amp;guid=9bf07100383c4ee42a8c036c1f9f8aeb&amp;type=3#05&apos;); -unity-background-scale-mode: scale-to-fit; height: 40%; right: 0; top: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; align-items: center; margin-top: 10%; margin-left: 4%; margin-right: 5%; margin-bottom: 5%;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 50%; padding-left: 10%; margin-top: 5%;">
+                <ui:Button display-tooltip-when-elided="true" name="mapa" class="redes" style="width: auto; background-color: rgba(188, 188, 188, 0); background-image: url(&apos;project://database/Assets/App/UI/Recursos%20UI/nueva%20UI/06.png?fileID=21300000&amp;guid=abbbb2d0b15b00b4086cc47d8995f084&amp;type=3#06&apos;); -unity-background-scale-mode: scale-to-fit; height: 45%; right: 0; top: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; align-items: center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

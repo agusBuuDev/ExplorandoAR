@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 282a9329f70675a45a3319b35712cf05
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - UIManager: {instanceID: 0}
+  - Quiz: {instanceID: 0}
+  - kelenken: {fileID: 21300000, guid: 067ed31baabb9574ca0a3c9b755d5345, type: 3}
+  - maiten: {fileID: 21300000, guid: 4f81fc882575bd3419c63e41a1214b3a, type: 3}
+  - coihue: {fileID: 21300000, guid: 3b1ba9761a005b94d9e6b79ddd9ae808, type: 3}
+  - higuera: {fileID: 21300000, guid: 1cae995c38e64664a98ad07b0a700920, type: 3}
+  - nahuelito: {fileID: 21300000, guid: 6130b0d943070fe439522f424fe40f90, type: 3}
+  - taller: {fileID: 21300000, guid: 2a9f2dcb9e3f77d4bb1bdb75a6c83d29, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

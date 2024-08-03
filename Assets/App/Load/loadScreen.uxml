@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="loadScreen" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/App/UI/Recursos%20UI/nueva%20UI/App%20formato%20celular%2004.png?fileID=21300000&amp;guid=fce86b288a3c1d34881fd030654a607a&amp;type=3#App formato celular 04&apos;); -unity-background-scale-mode: stretch-to-fill;">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 25%;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="logo" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/App/Load/Logo.png?fileID=21300000&amp;guid=ebec3b7461d201842adea3e3f7d49713&amp;type=3#Logo&apos;); -unity-background-scale-mode: scale-and-crop;" />
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 25%; justify-content: flex-end; padding-bottom: 15%;">
+            <ui:Label tabindex="-1" text="ExplorandoAR" display-tooltip-when-elided="true" name="title" style="align-self: center; -unity-text-align: lower-left; justify-content: center; align-items: center; font-size: 50%; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/App/UI/Recursos%20UI/Fonts/BarlowCondensed-Medium.ttf?fileID=12800000&amp;guid=ea457e14852094c4baa5241967283233&amp;type=3#BarlowCondensed-Medium&apos;); color: rgb(219, 218, 205);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
